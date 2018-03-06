@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_e5_mwOxdEee22oaTZqCK7Q" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_mPf0sOxdEee22oaTZqCK7Q" name="SQliteDB">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kXEWoOxhEee22oaTZqCK7Q" name="form" type="_jiqwIOxfEee22oaTZqCK7Q" association="_kWvmgOxhEee22oaTZqCK7Q"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zmsfUOxdEee22oaTZqCK7Q" name="main(String[] args): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Pl8YcOxeEee22oaTZqCK7Q" name="CreateTable(): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UrhLIOxeEee22oaTZqCK7Q" name="InsertDB(String Country, String Surname, String Name, String King): void"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eL7xcOxeEee22oaTZqCK7Q" name="viewDB(): Connection"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_jyyFMOxeEee22oaTZqCK7Q" name="UpdateDB(String Country, String Surname, String Name, String type, int Result, String date, String Time): void"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jiqwIOxfEee22oaTZqCK7Q" name="Form">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sOIEYOxfEee22oaTZqCK7Q" name="initialize():void" visibility="private"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3Q-4YOxgEee22oaTZqCK7Q" name="TestConnect">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_enzGsOxhEee22oaTZqCK7Q" name="form" type="_jiqwIOxfEee22oaTZqCK7Q" association="_enkdMOxhEee22oaTZqCK7Q"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_74B8AOxgEee22oaTZqCK7Q" name="ConnectionDataBase(): Connection"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_enkdMOxhEee22oaTZqCK7Q" memberEnd="_enzGsOxhEee22oaTZqCK7Q _en074OxhEee22oaTZqCK7Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_envcUOxhEee22oaTZqCK7Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_enwDYOxhEee22oaTZqCK7Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_en074OxhEee22oaTZqCK7Q" name="testconnect" type="_3Q-4YOxgEee22oaTZqCK7Q" association="_enkdMOxhEee22oaTZqCK7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kWvmgOxhEee22oaTZqCK7Q" memberEnd="_kXEWoOxhEee22oaTZqCK7Q _kXE9sOxhEee22oaTZqCK7Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kWyp0OxhEee22oaTZqCK7Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kXDIgOxhEee22oaTZqCK7Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kXE9sOxhEee22oaTZqCK7Q" name="sqlitedb" type="_mPf0sOxdEee22oaTZqCK7Q" association="_kWvmgOxhEee22oaTZqCK7Q"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_N_VKgOxfEee22oaTZqCK7Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N_bRIOxfEee22oaTZqCK7Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

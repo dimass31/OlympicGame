@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_RaJuwOxjEee22oaTZqCK7Q" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_iiLmsOxjEee22oaTZqCK7Q" name="Пользователь"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_pWAq8OxjEee22oaTZqCK7Q" name="Добавление участников"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tYKRwOxjEee22oaTZqCK7Q" name="Добавление результатов"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0BbEwOxjEee22oaTZqCK7Q" name="Просмотр итогов"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7TarsOxjEee22oaTZqCK7Q" memberEnd="_7Tcg4OxjEee22oaTZqCK7Q _7TdH8OxjEee22oaTZqCK7Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Tb50OxjEee22oaTZqCK7Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Tb50exjEee22oaTZqCK7Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7Tcg4OxjEee22oaTZqCK7Q" name="добавление участников" type="_pWAq8OxjEee22oaTZqCK7Q" association="_7TarsOxjEee22oaTZqCK7Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7TdH8OxjEee22oaTZqCK7Q" name="actor1" type="_iiLmsOxjEee22oaTZqCK7Q" association="_7TarsOxjEee22oaTZqCK7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8cGLAOxjEee22oaTZqCK7Q" memberEnd="_8cRxMOxjEee22oaTZqCK7Q _8cRxMexjEee22oaTZqCK7Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8cIAMOxjEee22oaTZqCK7Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8cIAMexjEee22oaTZqCK7Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8cRxMOxjEee22oaTZqCK7Q" name="добавление результатов" type="_tYKRwOxjEee22oaTZqCK7Q" association="_8cGLAOxjEee22oaTZqCK7Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8cRxMexjEee22oaTZqCK7Q" name="actor1" type="_iiLmsOxjEee22oaTZqCK7Q" association="_8cGLAOxjEee22oaTZqCK7Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-vxd0OxjEee22oaTZqCK7Q" memberEnd="_-vzTAexjEee22oaTZqCK7Q _-vz6EOxjEee22oaTZqCK7Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-vyr8OxjEee22oaTZqCK7Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-vzTAOxjEee22oaTZqCK7Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-vzTAexjEee22oaTZqCK7Q" name="просмотр итогов" type="_0BbEwOxjEee22oaTZqCK7Q" association="_-vxd0OxjEee22oaTZqCK7Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-vz6EOxjEee22oaTZqCK7Q" name="actor1" type="_iiLmsOxjEee22oaTZqCK7Q" association="_-vxd0OxjEee22oaTZqCK7Q"/>
+  </packagedElement>
+</uml:Model>

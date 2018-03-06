@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zO7tYORLEee8MKFKMet2xg" name="RootElement">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_zevD8ORLEee8MKFKMet2xg" name="dejatel'nost" node="_N5sDUORNEee8MKFKMet2xg _uk-NwORNEee8MKFKMet2xg _xYgFUORNEee8MKFKMet2xg _20yH0ORNEee8MKFKMet2xg" group="_p_2SMORMEee8MKFKMet2xg _vK4zsORMEee8MKFKMet2xg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_K02j4OROEee8MKFKMet2xg" target="_20yH0ORNEee8MKFKMet2xg" source="_xYgFUORNEee8MKFKMet2xg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RRhFUOROEee8MKFKMet2xg" target="_uk-NwORNEee8MKFKMet2xg" source="_N5sDUORNEee8MKFKMet2xg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TZ3R4OROEee8MKFKMet2xg" target="_xYgFUORNEee8MKFKMet2xg" source="_uk-NwORNEee8MKFKMet2xg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_p_2SMORMEee8MKFKMet2xg" name="Пользователь" node="_N5sDUORNEee8MKFKMet2xg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_vK4zsORMEee8MKFKMet2xg" name="Система" node="_uk-NwORNEee8MKFKMet2xg _20yH0ORNEee8MKFKMet2xg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_N5sDUORNEee8MKFKMet2xg" name="Обращение к базе данных" outgoing="_RRhFUOROEee8MKFKMet2xg" inPartition="_p_2SMORMEee8MKFKMet2xg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_uk-NwORNEee8MKFKMet2xg" name="Открытие базы данных" incoming="_RRhFUOROEee8MKFKMet2xg" outgoing="_TZ3R4OROEee8MKFKMet2xg" inPartition="_vK4zsORMEee8MKFKMet2xg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xYgFUORNEee8MKFKMet2xg" name="Внесение изменений" incoming="_TZ3R4OROEee8MKFKMet2xg" outgoing="_K02j4OROEee8MKFKMet2xg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_20yH0ORNEee8MKFKMet2xg" name="Сохранение изменений" incoming="_K02j4OROEee8MKFKMet2xg" inPartition="_vK4zsORMEee8MKFKMet2xg"/>
+  </packagedElement>
+</uml:Model>
